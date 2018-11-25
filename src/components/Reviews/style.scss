@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+.review-wrapper {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  .head-md {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .review-card {
+    padding: 20px 10px;
+    .profile-pic.card-img-left {
+      border-radius: 100%;
+      height: 100px;
+    }
+
+    .user-details {
+      margin: 8px 0;
+
+      .user-name {
+        color: $colorPrimary;
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+
+      .review-time {
+        font-size: 10px;
+        background: $colorPrimary;
+        padding: 3px 8px;
+        border-radius: 10px;
+      }
+    }
+  }
+}

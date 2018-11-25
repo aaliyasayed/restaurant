@@ -1,0 +1,14 @@
+@import '../../styles/_variables';
+
+.like-wrapper{
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  z-index: 9;
+
+  .fa {
+    font-size: 20px;
+    color: $colorPrimary;
+    cursor: pointer;
+  }
+}

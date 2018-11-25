@@ -1,0 +1,13 @@
+$colorWhite: #ffffff;
+
+$colorDefault: #fafafa;
+$colorPrimary: #79589F; // #8e63b0
+
+$colorText: #5d5d5d; // #484848e0
+$colorDarkText: darken($colorText, 10%);
+
+$colorLitePrimary: lighten($colorPrimary, 25%);
+$colorDarkPrimary: darken($colorPrimary, 10%);
+$colorDanger: #d93025;
+
+$colorBorder: #dee2e6;

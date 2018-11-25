@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+.city-selector {
+  display: flex;
+  align-items: center;
+
+  .current-location {
+    height: 40px;
+    width: 33px;
+    margin-left: 0px;
+    cursor: pointer;
+    font-size: 24px;
+    color: $colorLitePrimary;
+    text-align: right;
+    line-height: 40px;
+    margin-right: -10px;
+  }
+
+  .btn.dropdown-toggle {
+    min-width: 130px;
+    height: 40px;
+  }
+}

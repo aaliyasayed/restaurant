@@ -1,0 +1,76 @@
+@import '../../styles/_variables';
+
+.restaurant-details-wrapper {
+  .featured-image {
+    margin-top: 20px;
+    padding: 0;
+    
+    img {
+      height: 500px;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .res-header-body {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .res-name {
+      font-weight: 600;
+      color: $colorPrimary;
+    }
+    .user-rating {
+      color: #89959b;
+      .fa-star {
+        color: #daa520;
+      }
+    }
+
+    .like-wrapper {
+      top: 20px;
+      right: 20px;
+      .fa {
+        font-size: 26px;
+      }
+    }
+  }
+
+  .more-details {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+
+    .head-sm {
+      font-size: 14px;
+    }
+    .cost-for-2 {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .address {
+      word-break: break-word;
+      width: 450px;
+      font-weight: 600;
+    }
+  }
+
+  .gallery-wrapper {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding-top: 15px;
+    padding-bottom: 30px;
+    .head-md {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .gallery {
+      height: 100px;
+      border: 3px dashed #89959b;
+    }
+  }
+
+}
